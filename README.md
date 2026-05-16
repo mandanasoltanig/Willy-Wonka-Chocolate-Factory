@@ -1,34 +1,28 @@
-# Willy-Wonka-Chocolate-Factory
-Chocolate factory management application with inventory, production, and order tracking using Python and MySQL.
-# 🍫 Wonka Chocolate Factory Project
+## 🍫 Willy-Wonka-Chocolate-Factory
+Chocolate factory management application with inventory, production, and order tracking using MySQL.
 
 ## 📌 Overview
-This project analyzes operational and financial performance inside the fictional Willy Wonka Chocolate Factory using **SQL, Python, and data visualization**.
+This project analyzes operational and financial performance inside the fictional Willy Wonka Chocolate Factory using **SQL and data visualization**.
 
 The project focuses on:
 - Data cleaning & transformation
 - Database normalization
 - SQL analytics
 - Business insight generation
-- Python visualizations
+- Visualizations
 
 Key areas analyzed:
 - Q4 seasonality
 - Factory profitability
 - Regional revenue concentration
-
-
 ---
 
 # ⚙️ Tools Used
 
 - MySQL Workbench
 - SQL
-- Python
-- Pandas
 - Matplotlib
 - dbdiagram.io
-
 ---
 
 # 🧹 Data Preparation
@@ -69,7 +63,7 @@ Revenue was concentrated in a limited number of regions and cities.
 
 # 📉 Visualizations
 
-Python charts were created for:
+Charts were created for:
 - Monthly sales trends
 - Quarterly performance
 - Sales by region
@@ -88,77 +82,9 @@ Python charts were created for:
 - MySQL database schema
 - ERD diagram
 - SQL queries
-- Cleaned dataset
-- Python visualizations
-- Jupyter notebook
+- Visualizations
 - Final presentation
-
 ---
-
-Willy-Wonka-Chocolate-Factory
-Chocolate factory management application with inventory, production, and order tracking using Python and MySQL.
-
-🍫 Wonka Chocolate Factory Project
-📌 Overview
-This project analyzes operational and financial performance inside the fictional Willy Wonka Chocolate Factory using SQL, Python, and data visualization.
-
-The project focuses on:
-
-Data cleaning & transformation
-Database normalization
-SQL analytics
-Business insight generation
-Python visualizations
-Key areas analyzed:
-
-Q4 seasonality
-Factory profitability
-Regional revenue concentration
-⚙️ Tools Used
-MySQL Workbench
-SQL
-Python
-Pandas
-Matplotlib
-dbdiagram.io
-🧹 Data Preparation
-Data preprocessing included:
-
-Removing duplicates
-Handling missing values
-Validating numeric fields
-Converting date columns
-Creating cleaned analytical tables
-🗂️ Database Design
-The dataset was normalized into relational tables:
-
-customers,products, factories,orders,staging_raw
-
-The schema was built using:
-
-Primary Keys (PK), Foreign Keys (FK), One-to-many relationships
-image
-📊 Key Business Insights
-💰 Seasonality
-Q4 generated stronger sales and profit performance, confirming seasonal demand impacts chocolate sales.
-
-🏭 Factory Performance
-Certain factories contributed disproportionately higher revenue and gross profit.
-
-🌍 Regional Concentration
-Revenue was concentrated in a limited number of regions and cities.
-
-📉 Visualizations
-Python charts were created for:
-
-Monthly sales trends
-Quarterly performance
-Sales by region
-Factory profit contribution
-
-
-
-monthly_sales_trend_chart (1) quarterly_sales_chart (1), factory_profit_vs_volume_gap factory_volume_vs_profit_share sales_share_by_city_pie , revenue_share_by_region_pie
 
 # 📌 Conclusion 
 The analysis shows that Wonka’s business is highly concentrated across factories, seasons, and regions.
